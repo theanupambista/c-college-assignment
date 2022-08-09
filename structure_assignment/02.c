@@ -35,5 +35,13 @@ int main()
     {
         total += ((stu + j)->cMark + (stu + j)->iSysMark);
     }
-    printf("the total marks of all student is %d", total);
+    printf("the total marks of all student is %d\n", total);
+
+    // printing total marks of each student
+    for (j = 0; j < noOfStu; j++)
+    {
+        printf("Name: %s\n", (stu + j)->name);
+        printf("total marks: %d\n", ((stu + j)->cMark + (stu + j)->iSysMark));
+        printf("-------------------------\n");
+    }
 }
