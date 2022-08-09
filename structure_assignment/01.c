@@ -21,11 +21,11 @@ int main()
     // taking input from user and storing in struct emp
     for (i = 0; i < noOfEmp; i++)
     {
-        printf("\nEnter name: ");
+        printf("Enter name: ");
         scanf("%s", &(emp + i)->name);
-        printf("\nEnter the age: ");
+        printf("Enter the age: ");
         scanf("%d", &(emp + i)->age);
-        printf("enter the salary\n");
+        printf("enter the salary: ");
         scanf("%f", &(emp + i)->salary);
     }
 
